@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root{
+    --title-font: ;
+    --text-font: ;
+    --link-font: ;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100dvh;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
