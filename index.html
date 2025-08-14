@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RUST - home</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css">
 </head>
 <body>
     <div class="overlay"></div>
 
     <div class="ticker">
+        <ul>
+            <li>Nova coleção primavera chegou!</li>
+            <li>Desconto de 20% nesta semana</li>
+            <li>Compre 2, leve 3 em camisetas!</li>
+            <li>Chegaram os sneakers edição limitada!</li>
+        </ul>
         <ul>
             <li>Nova coleção primavera chegou!</li>
             <li>Desconto de 20% nesta semana</li>
@@ -28,35 +35,94 @@
         <h1 class="logo">RUST</h1>
 
         <div class="action-btn">
-            <button>o</button>
-            <button>o</button>
+            <button><i class="ph ph-heart"></i></button>
+            <button><i class="ph ph-user"></i></button>
         </div>
 
         <nav class="menu-nav" style="display: none;">
             <ul>
-                <li><a href="#">placeholder</a></li>
-                <li><a href="#">placeholder</a></li>
-                <li><a href="#">placeholder</a></li>
-                <li><a href="#">placeholder</a></li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">BLOG</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main">
+        <h1 class="main-logo" style="display: none;">
+            <div>R</div>
+            <div>U</div>
+            <div>S</div>
+            <div>T</div>
+        </h1>
+
         <aside class="side-menu">
             <nav class="mobile-nav">
                 <ul>
-                    <li><a href="#">placeholder</a></li>
-                    <li><a href="#">placeholder</a></li>
-                    <li><a href="#">placeholder</a></li>
-                    <li><a href="#">placeholder</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">BLOG</a></li>
                 </ul>
             </nav>
         </aside>
+
+        <section class="hero"></section>
+
+        <section class="products">
+            <div class="products-box">
+                <div class="products-cad">
+                    <img src="assets/black-tshirt.png" alt="jewelry">
+                    <h2>Jóias</h2>
+                    <button>clique aqui <i class="ph ph-arrow-right"></i></button>
+                </div>
+
+                <div class="products-cad">
+                    <img src="assets/black-tshirt.png" alt="summer-collction">
+                    <h2>Coleção De Verão</h2>
+                    <button>clique aqui <i class="ph ph-arrow-right"></i></button>
+                </div>
+
+                <div class="products-cad">
+                    <img src="assets/black-tshirt.png" alt="sneakers">
+                    <h2>Tênis</h2>
+                    <button>clique aqui <i class="ph ph-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-2"></section>
+
+        <section class="sub-footer">
+            <h2>RUST</h2>
+
+            <div class="sub-footer-links">
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Trocas e Devoluções</a></li>
+                    <li><a href="#">Frete e Entrega</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+            
+            <div class="sub-footer-socials">
+                <ul>
+                    <li><a href="#"><i class="ph ph-instagram-logo"></i></a></li>
+                    <li><a href="#"><i class="ph ph-facebook-logo"></i></a></li>
+                    <li><a href="#"><i class="ph ph-whatsapp-logo"></i></a></li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-
+        <p>&copy; 2025 RUST. Todos os direitos reservados.</p>
+        <p>Rua Exemplo, 123 - Bairro Fashion, Cidade, Estado</p>
+        <p>Email: contato@rust.com | Telefone: (11) 99999-9999</p>
     </footer>
 </body>
 </html>
