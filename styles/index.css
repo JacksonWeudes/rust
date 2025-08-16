@@ -163,19 +163,23 @@
     grid-template-columns: 1fr;
 }
 .products-card{
-    text-align: center;
-    border: 1px solid;
     min-width: 300px;
+    min-height: 300px;
+    padding: 1rem;
     margin: auto;
     margin-block: 1rem;
-    padding: 1rem;
+
+    text-align: center;
+    border: 1px solid;
+
 }
 .products-card img{
     width: 200px;
     height: 200px;
 }
+.products-card h2{
+}
 .products-card button{
     padding: 10px 15px;
-    margin-block: 1rem;
     border: 1px solid;
 }
