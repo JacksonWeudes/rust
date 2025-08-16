@@ -147,5 +147,35 @@
     height: 100dvh;
     margin: auto;
 
-    background-color: rgba(255, 0, 0, 0.37);
+    background-image: url(../assets/bg-hero1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+}
+
+.products{
+    width: 90%;
+    padding-block: 5rem;
+    margin: auto;
+}
+.products-box{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.products-card{
+    text-align: center;
+    border: 1px solid;
+    min-width: 300px;
+    margin: auto;
+    margin-block: 1rem;
+    padding: 1rem;
+}
+.products-card img{
+    width: 200px;
+    height: 200px;
+}
+.products-card button{
+    padding: 10px 15px;
+    margin-block: 1rem;
+    border: 1px solid;
 }
