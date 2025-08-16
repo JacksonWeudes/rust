@@ -88,11 +88,11 @@
 
 .main-mobile-logo{
     width: 90%;
+    margin: auto;
     
     font-family: var(--title-font);
     font-size: 25vw;
     font-weight: bold;
-    font-style: italic;
     text-align: center;
 }
 
@@ -143,7 +143,9 @@
 }
 
 .hero{
+    width: 90%;
     height: 100dvh;
+    margin: auto;
 
     background-color: rgba(255, 0, 0, 0.37);
 }
